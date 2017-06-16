@@ -1,0 +1,29 @@
+#include <stdio.h>
+
+/*
+	Atividades do livro de Algoritmos e lógica de programação II. 
+	Linguagem C
+	Capítulo 01
+	Exercício 04
+	Programa que recebe quatro números inteiros e calcula a média aritmética entre eles. 
+*/
+
+main(){
+	
+	int n1, n2, n3, n4;
+		
+	printf("\nDigite o primeiro numero: ");
+	scanf("%i", &n1);
+	printf("\nDigite o segundo numero: ");
+	scanf("%i", &n2);
+	printf("\nDigite o terceiro numero: ");
+	scanf("%i", &n3);
+	printf("\nDigite o quarto numero: ");
+	scanf("%i", &n4);
+	
+	float media = n1 + n2 + n3 + n4;
+	
+	printf("\nA media entre os numeros %i, %i, %i e %i eh %.2f", n1, n2, n3, n4, media/4);
+	
+	return (0);
+}
