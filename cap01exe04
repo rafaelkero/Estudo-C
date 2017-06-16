@@ -10,20 +10,20 @@
 
 main(){
 	
-	int n1, n2, n3, n4;
+	float n1, n2, n3, n4, media;
 		
 	printf("\nDigite o primeiro numero: ");
-	scanf("%i", &n1);
+	scanf("%f", &n1);
 	printf("\nDigite o segundo numero: ");
-	scanf("%i", &n2);
+	scanf("%f", &n2);
 	printf("\nDigite o terceiro numero: ");
-	scanf("%i", &n3);
+	scanf("%f", &n3);
 	printf("\nDigite o quarto numero: ");
-	scanf("%i", &n4);
+	scanf("%f", &n4);
 	
-	float media = n1 + n2 + n3 + n4;
+	media = (n1 + n2 + n3 + n4)/4;
 	
-	printf("\nA media entre os numeros %i, %i, %i e %i eh %.2f", n1, n2, n3, n4, media/4);
+	printf("\nA media entre os numeros %.0f, %.0f, %.0f e %.0f eh %.2f", n1, n2, n3, n4, media);
 	
 	return (0);
 }
