@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <math.h>
+
+/*
+	Atividades do livro de Algoritmos e lógica de programação II. 
+	Linguagem C
+	Capítulo 01
+	Exercício 03
+	Programa que leia um número positivo inteiro e apresente o quadrado e a raiz deste número. 
+*/
+
+main (){
+	
+	/* Declaração das variáveis */
+	int num;
+	
+	printf("Digite um numero inteiro e positivo: ");
+	scanf("%i", &num);
+	
+	printf("\nO numero %i ao quadrado eh: %.0f", num, pow(num, 2)); //imprime na tela o numero digitado ao quadrado.
+	printf("\nA raiz quadrada de %i eh: %.3f", num, sqrt(num)); //imprime na tela a raiz quadrada do numero digitado.
+	
+  return 0; 
+}
