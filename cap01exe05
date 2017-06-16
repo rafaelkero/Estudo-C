@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+/*
+	Atividades do livro de Algoritmos e lógica de programação II. 
+  Linguagem C
+	Capítulo 01
+	Exercício 05
+	Programa que calcula a área e perímetro de um circulo informando apenas o raio. 
+*/
+
+#define pi 3.14159 //declaração do valor constante de pi
+
+main(){
+	
+	float raio, area, perimetro;
+	
+	printf("Digite o raio do circulo em centimetros: ");
+	scanf("%f", &raio);
+	
+	area = pi * (raio * raio);
+	perimetro = (2 * pi) * raio;
+	
+	printf("\nA area do circulo eh de %0.2f cm", area);
+	printf("\nO perimetro do circulo eh de %0.2f cm", perimetro);
+	
+	return 0;
+}
