@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+/*
+	Atividades do livro de Algoritmos e lógica de programação II. 
+	Linguagem C
+	Capítulo 01
+	Exercício 02
+	Programa que leia o nome e retorna mensagem de boas vindas junto ao nome informado. 
+*/
+
+main(){
+	
+	char nome[64];
+			
+	printf("\nInforme seu nome: "); //imprime na tela a solicitação do nome.
+	scanf("%[^\n]s", nome); // salva o nome digitado dnetro da variável nome. 
+	
+	
+	printf("Bem-vindo a disciplina de Algoritmos e Logica de Programacao II\n %s!!", nome);
+	
+	return (0);
+}
