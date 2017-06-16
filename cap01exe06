@@ -1,0 +1,42 @@
+#include <stdio.h>
+
+/*
+	Atividades do livro de Algoritmos e lógica de programação II. 
+
+	Capítulo 01
+	Exercício 06
+	Identificar o erro no código abaixo. 
+	
+	Comentários com // serão as informações sobre os erros encontrados!
+*/
+
+
+
+main (){
+	/* Declaração das variáveis */
+	int num1, num2, total // O erro está aqui faltando o fechamento da linha com o ponto e virgula ";"
+	
+	
+	/* Entrada de dados */
+  
+  /* Mensagem ao usuário */
+	printf("Digite o primeiro numero: "); 
+	/* Leitura do primeiro número */
+  scanf("%d", num1);  //aqui também tem o erro da falta do simbolo "&" pois a variável num1 não é do tipo string.
+	/* Mensagem ao usuário */
+  printf("Digite o segundo numero: "); 
+  /* Leitura do primeiro número */
+	scanf("%d", num1); 
+	
+	
+	/* Processamento */
+	
+	/* cálculo do ano de nascimento */
+	total = num1 + num2  // Falta o fechamento da linha com o ";" e o comentário está errado pois não seria cálculo para encontrar o ano de nascimento
+	
+	/* Saída de dados */
+	
+	printf("\n A soma dos números e: %d", soma); // variável soma não está declarada e o correto seria a utilização da variavel total
+	
+  return 0;
+}
