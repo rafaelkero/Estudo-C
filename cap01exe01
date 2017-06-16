@@ -1,0 +1,29 @@
+Marque com um X os identificadores incorretos. 
+
+( ) idade
+( ) nome*r
+( ) media_peso%
+( ) aluno_nota
+( ) media idade
+( ) x2
+( ) endereco+cep
+( ) A 
+( ) 2nome
+( ) 012
+( ) /fone
+( ) 1234P
+
+Respostas: 
+
+( ) idade
+(X) nome*r
+(X) media_peso%
+( ) aluno_nota
+(X) media idade
+( ) x2
+(X) endereco+cep
+( ) A 
+(X) 2nome
+(X) 012
+(X) /fone
+(X) 1234P
